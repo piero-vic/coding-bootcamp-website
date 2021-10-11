@@ -156,3 +156,65 @@ a {
   padding: 30px;
   margin: auto;
 }
+
+/* Speakers */
+.speakers {
+  padding: 50px 24px;
+  height: 50%;
+  background-color: white;
+  color: black;
+  grid-gap: 30px;
+}
+
+.speakers * {
+  margin: 0;
+}
+
+.speakers h2 {
+  text-align: center;
+}
+
+.speakers h2:after {
+  border-bottom: 1px solid #ec5242;
+  padding: 10px 0;
+  content: '';
+  display: block;
+  margin-left: 45%;
+  width: 10%;
+}
+
+.speakers-cards {
+  grid-gap: 50px
+}
+
+.speaker {
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+}
+
+.speaker img {
+  align-self: center;
+}
+
+.speaker-text {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.position {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.position:after {
+  border-bottom: 1px solid #595959;
+  padding: 5px 0;
+  content: '';
+  display: block;
+  width: 10%;
+}
+
+.summary {
+  color: #595959;
+  font-size: 11px;
+}
