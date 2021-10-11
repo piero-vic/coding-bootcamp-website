@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: #595959;
 }
 
 ul {
@@ -25,7 +26,7 @@ a {
 }
 
 .pad {
-  padding: 0 100px;
+  padding: 0 24px;
 }
 
 /* Header */
@@ -34,7 +35,7 @@ a {
   grid-template-columns: 4fr 6fr;
   align-items: center;
   box-shadow: 0 3px 10px grey;
-  /* display: none; */
+  display: none;
 }
 
 .header-title {
@@ -48,12 +49,51 @@ a {
 
 /* Hero */
 .hero {
-  padding: 100px;
+  padding: 100px 24px;
+  height: 50%;
+  background-color: #d3d3d3;
+  grid-gap: 24px;
+}
+
+.hero * {
+  margin: 0;
+}
+
+.hero-title {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-title p {
+  color: #ec5242;
+  font-size: 18px;
 }
 
 .hero-title h1 {
-  font-size: 60px;
+  font-size: 31px;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 0;
+}
+
+.image-text {
+  background-image: url(https://images.unsplash.com/photo-1573147367786-a5a227916f0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero > p {
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.date h2 {
+  /* font-size: 55px; */
+}
+
+.date p {
+  font-size: 13px;
 }
