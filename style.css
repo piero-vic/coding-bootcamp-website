@@ -111,6 +111,15 @@ a {
   text-align: center;
 }
 
+.program h2:after {
+  border-bottom: 1px solid #ec5242;
+  padding: 10px 0;
+  content: '';
+  display: block;
+  margin-left: 45%;
+  width: 10%;
+}
+
 .program-cards {
   flex-direction: column;
   gap: 15px;
