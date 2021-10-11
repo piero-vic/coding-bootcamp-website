@@ -90,10 +90,60 @@ a {
   line-height: 18px;
 }
 
-.date h2 {
-  /* font-size: 55px; */
-}
-
 .date p {
   font-size: 13px;
+}
+
+/* Program */
+.program {
+  padding: 50px 24px;
+  height: 50%;
+  background-color: #272a31;
+  color: white;
+  grid-gap: 30px;
+}
+
+.program * {
+  margin: 0;
+}
+
+.program h2 {
+  text-align: center;
+}
+
+.program-cards {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 15px;
+  align-items: center;
+  gap: 20px;
+}
+
+.card img {
+  min-height: 60%;
+  min-width: 60%;
+  align-self: center;
+}
+
+.card h3 {
+  color: #ec5242;
+  min-width: 30%
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.join-btn {
+  background-color: #ec5242;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  padding: 30px;
+  margin: auto;
 }
