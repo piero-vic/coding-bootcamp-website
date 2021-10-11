@@ -45,3 +45,15 @@ a {
   justify-content: space-between;
   color: gray;
 }
+
+/* Hero */
+.hero {
+  padding: 100px;
+}
+
+.hero-title h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
