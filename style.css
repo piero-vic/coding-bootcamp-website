@@ -34,6 +34,12 @@ a {
   display: none;
 }
 
+.hamburger-btn {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+
 /* Hero */
 .hero {
   padding: 100px 24px;
@@ -378,6 +384,10 @@ a {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+
   /* Partial Underline */
   .about-logo h2::after,
   .about-events h2::after,
