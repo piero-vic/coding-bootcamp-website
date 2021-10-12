@@ -94,7 +94,7 @@ a {
   font-size: 13px;
 }
 
-/* About Hero */
+/* About - Hero */
 .about-hero {
   padding: 100px 24px 50px 24px;
   height: 50%;
@@ -132,6 +132,10 @@ a {
   line-height: 18px;
 }
 
+.about-desktop {
+  display: none;
+}
+
 .contact {
   font-size: 11px;
   line-height: 18px;
@@ -151,6 +155,7 @@ a {
   background-color: #fff;
   grid-gap: 30px;
   text-align: center;
+  border-bottom: 2px solid #dfdfdf;
 }
 
 .about-events *,
@@ -414,6 +419,83 @@ a {
 
   .date p {
     font-size: 18px;
+  }
+
+  /* About - Hero */
+  .about-hero {
+    padding: 100px 12% 100px 12%;
+    height: 50%;
+    background-color: #f7f7f7;
+    grid-gap: 34px;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .about-hero-title p {
+    font-size: 25px;
+  }
+
+  .about-hero-title h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .about-hero h1::after {
+    border-bottom: 1px solid #ec5242;
+    padding: 10px 0;
+    content: '';
+    display: block;
+    margin-left: 45%;
+    width: 10%;
+  }
+
+  .about-desktop {
+    display: block;
+  }
+
+  .about-mobile {
+    display: none;
+  }
+
+  .about-hero > p {
+    max-width: 75%;
+    padding: 3% 5%;
+  }
+
+  .contact {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 18px;
+  }
+
+  /* About - Logo */
+  .about-logo p {
+    font-size: 14px;
+  }
+
+  .logo-container {
+    min-width: 35%;
+    justify-self: center;
+  }
+
+  /* About - Past Events */
+  .about-events {
+    padding: 50px 12% 100px 12%;
+  }
+
+  .about-events p {
+    font-size: 14px;
+  }
+
+  .events-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .event {
+    min-width: 35%;
+    height: 30vh;
   }
 
   /* Program */
