@@ -218,3 +218,9 @@ a {
   color: #595959;
   font-size: 11px;
 }
+
+/* Footer */
+.footer {
+  justify-content: space-between;
+  align-items: center;
+}
