@@ -79,7 +79,6 @@ a {
   background-image: url(https://images.unsplash.com/photo-1573147367786-a5a227916f0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
   background-size: cover;
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -111,7 +110,7 @@ a {
   text-align: center;
 }
 
-.program h2:after {
+.program h2::after {
   border-bottom: 1px solid #ec5242;
   padding: 10px 0;
   content: '';
@@ -140,7 +139,7 @@ a {
 
 .card h3 {
   color: #ec5242;
-  min-width: 30%
+  min-width: 30%;
 }
 
 .card p {
@@ -174,7 +173,7 @@ a {
   text-align: center;
 }
 
-.speakers h2:after {
+.speakers h2::after {
   border-bottom: 1px solid #ec5242;
   padding: 10px 0;
   content: '';
@@ -184,7 +183,7 @@ a {
 }
 
 .speakers-cards {
-  grid-gap: 50px
+  grid-gap: 50px;
 }
 
 .speaker {
@@ -206,7 +205,7 @@ a {
   font-style: italic;
 }
 
-.position:after {
+.position::after {
   border-bottom: 1px solid #595959;
   padding: 5px 0;
   content: '';
@@ -236,7 +235,7 @@ a {
   color: #d3d3d3;
 }
 
-.partners h2:after {
+.partners h2::after {
   border-bottom: 1px solid #ec5242;
   padding: 10px 0;
   content: '';
