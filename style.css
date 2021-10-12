@@ -31,28 +31,17 @@ a {
 
 /* Header */
 .header {
-  border: 1px solid gray;
-  grid-template-columns: 4fr 6fr;
-  align-items: center;
-  box-shadow: 0 3px 10px grey;
   display: none;
-}
-
-.header-title {
-  color: #ec5242;
-}
-
-.nav-list {
-  justify-content: space-between;
-  color: gray;
 }
 
 /* Hero */
 .hero {
   padding: 100px 24px;
   height: 50%;
-  background-color: #d3d3d3;
   grid-gap: 24px;
+  background: rgba(211, 211, 211, 1) url(assets/hero-background.jpg);
+  background-size: auto;
+  background-blend-mode: soft-light;
 }
 
 .hero * {
@@ -83,6 +72,7 @@ a {
 }
 
 .hero > p {
+  background-color: #e8e8e8;
   border: 2px solid white;
   border-radius: 2px;
   padding: 10px;
@@ -98,9 +88,11 @@ a {
 .about-hero {
   padding: 100px 24px 50px 24px;
   height: 50%;
-  background-color: #f7f7f7;
   grid-gap: 24px;
   text-align: center;
+  background: rgba(211, 211, 211, 1) url(assets/hero-background.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 .about-hero * {
@@ -386,6 +378,29 @@ a {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  /* Partial Underline */
+  .about-logo h2::after,
+  .about-events h2::after,
+  .program h2::after,
+  .speakers h2::after,
+  .partners h2::after {
+    margin-left: 48.5%;
+    width: 3%;
+  }
+
+  /* Header */
+  .header {
+    display: grid;
+    padding: 15px 12%;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+  }
+
+  .nav-list {
+    justify-content: flex-end;
+    gap: 10%;
+  }
+
   /* Hero */
   .hero {
     padding: 100px 12%;
@@ -425,7 +440,6 @@ a {
   .about-hero {
     padding: 100px 12% 100px 12%;
     height: 50%;
-    background-color: #f7f7f7;
     grid-gap: 34px;
     text-align: center;
     justify-items: center;
@@ -499,11 +513,6 @@ a {
   }
 
   /* Program */
-  .program h2::after {
-    margin-left: 48.50%;
-    width: 3%;
-  }
-
   .program-cards {
     flex-direction: row;
     justify-content: center;
@@ -524,11 +533,6 @@ a {
     padding: 100px 12%;
   }
 
-  .speakers h2::after {
-    margin-left: 48.50%;
-    width: 3%;
-  }
-
   .speakers-cards {
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
@@ -536,7 +540,6 @@ a {
 
   /* Footer */
   .footer {
-    padding-left: 12%;
-    padding-right: 12%;
+    padding: 15px 12%;
   }
 }
