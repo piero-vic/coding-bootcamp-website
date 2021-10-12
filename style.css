@@ -383,7 +383,7 @@ a {
 @media screen and (min-width: 768px) {
   /* Hero */
   .hero {
-    padding: 100px 100px;
+    padding: 100px 12%;
   }
 
   .hero-title p {
@@ -437,4 +437,24 @@ a {
     gap: 20px;
   }
 
+  /* Speakers */
+  .speakers {
+    padding: 100px 12%;
+  }
+
+  .speakers h2::after {
+    margin-left: 48.50%;
+    width: 3%;
+  }
+
+  .speakers-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+  /* Footer */
+  .footer {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
 }
