@@ -93,6 +93,55 @@ a {
   font-size: 13px;
 }
 
+/* About Hero */
+.about-hero {
+  padding: 100px 24px 50px 24px;
+  height: 50%;
+  background-color: #f7f7f7;
+  grid-gap: 24px;
+  text-align: center;
+}
+
+.about-hero * {
+  margin: 0;
+}
+
+.about-hero-title {
+  flex-direction: column;
+  gap: 5px;
+  color: #ec5242;
+}
+
+.about-hero-title p {
+  font-size: 18px;
+}
+
+.about-hero-title h1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.about-hero > p {
+  background-color: #fff;
+  border: 2px solid #dfdfdf;
+  border-radius: 1px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.contact {
+  font-size: 11px;
+  line-height: 18px;
+  padding: 0 18px;
+}
+
+.contact span {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Program */
 .program {
   padding: 50px 24px;
