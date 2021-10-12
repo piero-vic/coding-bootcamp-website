@@ -219,6 +219,43 @@ a {
   font-size: 11px;
 }
 
+/* Partners */
+.partners {
+  padding: 50px 24px;
+  height: 50%;
+  background-color: #404040;
+  grid-gap: 30px;
+}
+
+.partners * {
+  margin: 0;
+}
+
+.partners h2 {
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.partners h2:after {
+  border-bottom: 1px solid #ec5242;
+  padding: 10px 0;
+  content: '';
+  display: block;
+  margin-left: 45%;
+  width: 10%;
+}
+
+.partners-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+.partners img {
+  max-width: 30%;
+}
+
 /* Footer */
 .footer {
   justify-content: space-between;
