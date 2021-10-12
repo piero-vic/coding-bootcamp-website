@@ -142,7 +142,8 @@ a {
   text-decoration: underline;
 }
 
-/* About - Logo */
+/* About - Logo & Events */
+.about-events,
 .about-logo {
   padding: 50px 24px;
   height: 50%;
@@ -150,11 +151,12 @@ a {
   grid-gap: 30px;
   text-align: center;
 }
-
+.about-events *,
 .about-logo * {
   margin: 0;
 }
 
+.about-events h2::after,
 .about-logo h2::after {
   border-bottom: 1px solid #ec5242;
   padding: 10px 0;
@@ -164,6 +166,7 @@ a {
   width: 10%;
 }
 
+.about-events p,
 .about-logo p {
   font-size: 11px;
   line-height: 18px;
@@ -180,6 +183,30 @@ a {
 
 .logo-container img {
   min-width: 80%;
+}
+
+.events-container {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.event-1 {
+  background: rgba(236, 82, 66, 0.9) url(https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+  background-position: left;
+}
+
+.event-2 {
+  background: rgba(236, 82, 66, 0.8) url(https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+}
+
+.event {
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  color: #fff;
 }
 
 /* Program */
