@@ -3,6 +3,22 @@ function toggleNavMenu() {
   mobileMenu.classList.toggle('mobile-menu-toggle');
 }
 
+function addSpeaker(speaker, container) {
+  const speakerCard = document.createElement('div');
+  speakerCard.classList = 'd-grid speaker';
+  speakerCard.innerHTML = `
+  <div class="d-flex">
+    <img src="${speaker.photo}" alt="">
+  </div>
+  <div class="d-flex speaker-text">
+    <h3>${speaker.name}</h3>
+    <p class="position">${speaker.position}</p>
+    <p class="summary">${speaker.summary}</p>
+  </div>
+  `;
+  container.appendChild(speakerCard);
+}
+
 const toggleButtons = Array.from(document.getElementsByClassName('toggle-btn'));
 toggleButtons.forEach((element) => element.addEventListener('click', toggleNavMenu));
 
@@ -44,3 +60,9 @@ const speakers = [
     photo: 'https://randomuser.me/api/portraits/men/22.jpg',
   },
 ];
+
+const speakersContainer = document.querySelector('#speakers-section .speakers-cards');
+
+if (speakersContainer !== null) {
+  speakers.forEach((item) => addSpeaker(item, speakersContainer));
+}
