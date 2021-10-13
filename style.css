@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -34,12 +36,12 @@ a {
   display: none;
 }
 
-ul a {
+.link {
   color: inherit;
   transition: color 0.4s;
 }
 
-ul a:hover {
+.link:hover {
   color: #ec5242;
 }
 
@@ -450,6 +452,22 @@ ul a:hover {
   }
 
   /* Header */
+  .header-dark {
+    height: 30px;
+    padding: 0 12%;
+    background-color: #404040;
+    color: white;
+    font-size: 16px;
+    font-family: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+  }
+
+  .social-media {
+    gap: 10px;
+  }
+
   .header {
     display: grid;
     padding: 15px 12%;
