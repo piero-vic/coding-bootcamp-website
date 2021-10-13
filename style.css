@@ -76,7 +76,7 @@ ul a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .mobile-menu li {
