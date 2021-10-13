@@ -34,10 +34,61 @@ a {
   display: none;
 }
 
+ul a {
+  color: inherit;
+  transition: color 0.4s;
+}
+
+ul a:hover {
+  color: #ec5242;
+}
+
+/* Mobile Menu */
 .hamburger-btn {
   position: absolute;
   left: 24px;
   top: 24px;
+}
+
+.cancel-btn {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.mobile-menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(64, 64, 64, 0.8);
+  backdrop-filter: blur(5px);
+  display: flex;
+  padding: 12%;
+}
+
+.mobile-menu-toggle {
+  display: none;
+}
+
+.mobile-menu ul {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 50px;
+}
+
+.mobile-menu li {
+  margin: 0;
+}
+
+.mobile-menu li::after {
+  border-bottom: 3px solid #ec5242;
+  padding: 10px 0;
+  content: '';
+  display: block;
+  width: 25%;
 }
 
 /* Hero */
