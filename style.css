@@ -64,7 +64,7 @@ ul a:hover {
   background-color: rgba(64, 64, 64, 0.8);
   backdrop-filter: blur(5px);
   display: flex;
-  padding: 12%;
+  padding: 5% 12%;
 }
 
 .mobile-menu-toggle {
@@ -76,7 +76,7 @@ ul a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 35px;
+  font-size: 4vh;
 }
 
 .mobile-menu li {
