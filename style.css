@@ -32,7 +32,7 @@ a {
 }
 
 /* Header */
-.header {
+header {
   display: none;
 }
 
@@ -452,6 +452,10 @@ a {
   }
 
   /* Header */
+  header {
+    display: block;
+  }
+
   .header-dark {
     height: 30px;
     padding: 0 12%;
