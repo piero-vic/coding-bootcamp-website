@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Conference Webpage
 
 > Conference webpage mockup. Made for the first capstone project of Microverse.
 
