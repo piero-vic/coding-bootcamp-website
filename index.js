@@ -8,7 +8,7 @@ function addSpeaker(speaker, container) {
   speakerCard.classList = 'd-grid speaker';
   speakerCard.innerHTML = `
   <div class="d-flex">
-    <img src="${speaker.photo}" alt="">
+    <img src="${speaker.photo}" alt="${speaker.name.toLowerCase().replace(' ', '-')}-photo">
   </div>
   <div class="d-flex speaker-text">
     <h3>${speaker.name}</h3>
