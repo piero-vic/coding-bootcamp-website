@@ -435,6 +435,10 @@ header {
   align-items: center;
 }
 
+.about-footer {
+  background-color: inherit;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .hamburger-btn {
@@ -592,7 +596,7 @@ header {
 
   .event {
     min-width: 35%;
-    height: 30vh;
+    height: 210px;
   }
 
   /* Program */
@@ -621,8 +625,18 @@ header {
     grid-gap: 50px;
   }
 
+  /* Partners */
+  .about-partners {
+    display: none;
+  }
+
   /* Footer */
   .footer {
     padding: 15px 12%;
+  }
+
+  .about-footer {
+    background-color: #404040;
+    color: white;
   }
 }
