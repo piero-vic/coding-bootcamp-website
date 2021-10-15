@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Conference Webpage
+# Coding Bootcamp Webpage
 
-> Conference webpage mockup. Made for the first capstone project of Microverse.
+> Coding Bootcamp webpage mockup. Made for the first capstone project of Microverse.
 
 ![screenshot](desktop-screenshot.png)
 
@@ -15,6 +15,31 @@
 ## Live Demo
 
 Live demo hosted on GitHub Pages // [Live Demo Link](https://piero-vic.github.io/conference-website/)
+
+## Getting Started
+If you want to run the webpage on your local machine you can always clone the repo and open `index.html` on your favorite browser.
+
+1. Clone the repo.
+
+```zsh
+git clone [repo link] [directory]
+```
+
+2. Enter the directory.
+
+```zsh
+cd [directory]
+```
+
+3. Open the main file. (Use `open` on macOS and `xdg-open` on Linux)
+
+```zsh
+  $ open index.html
+```
+
+```zsh
+  $ xdg-open index.html
+```
 
 ## Author(s)
 
