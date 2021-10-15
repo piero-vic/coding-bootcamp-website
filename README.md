@@ -34,11 +34,11 @@ cd [directory]
 3. Open the main file. (Use `open` on macOS and `xdg-open` on Linux)
 
 ```zsh
-  $ open index.html
+open index.html
 ```
 
 ```zsh
-  $ xdg-open index.html
+xdg-open index.html
 ```
 
 ## Author(s)
