@@ -433,6 +433,8 @@ header {
 .footer {
   justify-content: space-between;
   align-items: center;
+  font-size: 11px;
+  height: 70px;
 }
 
 .about-footer {
@@ -641,6 +643,7 @@ header {
   /* Footer */
   .footer {
     padding: 15px 12%;
+    font-size: inherit;
   }
 
   .about-footer {
